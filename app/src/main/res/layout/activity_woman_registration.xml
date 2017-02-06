@@ -58,8 +58,42 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Select LMP Date"
+        android:id="@+id/btn_woman_lmp_date"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Select Due Date"
         android:id="@+id/btn_woman_due_date"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cycle time (days)"
+        android:inputType="number"
+        android:id="@+id/txt_woman_cycle_time"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ovulation (days)"
+        android:inputType="number"
+        android:id="@+id/txt_woman_ovulation"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pre Pregnanacy Weight (in kg)"
+        android:inputType="number"
+        android:id="@+id/txt_woman_prepregnancy"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pre Pregnanacy Height (in cm)"
+        android:inputType="number"
+        android:id="@+id/txt_woman_prepregnancy_height"
         />
   </LinearLayout>
   <RadioButton

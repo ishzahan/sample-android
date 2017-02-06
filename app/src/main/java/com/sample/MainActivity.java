@@ -17,12 +17,11 @@ public class MainActivity extends AppCompatActivity {
   public void doctor(){
     Intent intent=new Intent(this,DoctorActivity.class);
     startActivity(intent);
-    finish();
+
   }
   @OnClick(R.id.btn_woman)
   public void woman(){
     Intent intent=new Intent(this,WomanActivity.class);
     startActivity(intent);
-    finish();
   }
 }
