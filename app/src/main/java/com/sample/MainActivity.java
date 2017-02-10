@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
   }
   @OnClick(R.id.btn_doctor)
   public void doctor(){
-    Intent intent=new Intent(this,DoctorActivity.class);
+    Intent intent=new Intent(this,DoctorRegistrationActivity.class);
     startActivity(intent);
 
   }

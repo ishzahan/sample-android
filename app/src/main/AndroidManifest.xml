@@ -26,6 +26,10 @@
         android:name=".DoctorActivity"
         android:label="@string/app_name">
     </activity>
+    <activity android:name=".DoctorRegistrationActivity"
+      android:label="@string/app_name">
+
+    </activity>
     <activity
         android:name=".WomanActivity"
         android:label="@string/your_status">
