@@ -1,5 +1,6 @@
 package com.sample;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -42,5 +43,9 @@ public class WomanRegistrationActivity extends AppCompatActivity {
       mWoman.setChecked(false);
       mLayoutWoman.setVisibility(View.GONE);
     }
+  }
+  @OnClick(R.id.btn_woman_save) public void womanReg() {
+    Intent intent = new Intent(this, WomanRegistrationActivity.class);
+    startActivity(intent);
   }
 }

@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
   }
   @OnClick(R.id.btn_woman)
   public void woman(){
-    Intent intent=new Intent(this,WomanActivity.class);
+    Intent intent=new Intent(this,WomanRegistrationActivity.class);
     startActivity(intent);
   }
 }

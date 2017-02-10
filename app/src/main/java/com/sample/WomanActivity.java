@@ -35,8 +35,5 @@ public class WomanActivity extends AppCompatActivity {
     return true;
   }
 
-  @OnClick(R.id.btn_woman_reg) public void womanReg() {
-    Intent intent = new Intent(this, WomanRegistrationActivity.class);
-    startActivity(intent);
-  }
+
 }
