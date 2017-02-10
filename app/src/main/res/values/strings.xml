@@ -2,4 +2,6 @@
   <string name="app_name">Sample-Android</string>
   <string name="welcome_text">Are You Doctor or Pregnent Woman?</string>
   <string name="your_status">Your status</string>
+  <string name="doctor">Doctor</string>
+  <string name="woman">Woman</string>
 </resources>
